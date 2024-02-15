@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AM.ApplicationCore.Domain
 {
-    internal class Plane
+    public class Plane
     {
         public int Capacity { get; set; }
         public DateTime ManufactureDate { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AM.ApplicationCore.Domain
 {
-    internal enum PlaneType
+    public enum PlaneType
     {
         Boeing,
         Airbus

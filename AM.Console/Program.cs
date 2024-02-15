@@ -8,7 +8,7 @@ Flight f1 = new ()
     FlightId = 1,
     FlightDate = DateTime.Now,
     EstimatedDuration = 120,
-    EffectiveArrivalDate = DateTime.Now.AddHours(2),
+    EffectiveArrival = DateTime.Now.AddHours(2),
     Departure = "Paris",
     Destination = "New York"
 };

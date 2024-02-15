@@ -11,7 +11,7 @@ namespace AM.ApplicationCore.Domain
         public int FlightId { get; set; }
         public DateTime FlightDate { get; set; }
         public int EstimatedDuration { get; set; }
-        public DateTime EffectiveArrivalDate { get; set; }
+        public DateTime EffectiveArrival { get; set; }
         public string Departure { get; set; }
         public string Destination { get; set; }
 
@@ -23,7 +23,7 @@ namespace AM.ApplicationCore.Domain
 
         public override string ToString()
         {
-            return "FlightId: " + FlightId + " FlightDate: " + FlightDate.ToShortDateString() + " EstimatedDuration: " + EstimatedDuration + " EffectiveArrivalDate: " + EffectiveArrivalDate.ToShortDateString() + " Departure: " + Departure + " Destination: " + Destination;
+            return "FlightId: " + FlightId + " FlightDate: " + FlightDate.ToShortDateString() + " EstimatedDuration: " + EstimatedDuration + " EffectiveArrival: " + EffectiveArrival.ToShortDateString() + " Departure: " + Departure + " Destination: " + Destination;
         }
     }
 }
